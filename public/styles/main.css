@@ -1,0 +1,59 @@
+body {
+    background: ghostwhite;
+
+}
+
+
+
+header {
+    color: #3c3c3c;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comment-form-wrapper{
+    width: 50%;
+    align-self: center;
+}
+.comment-form{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    position: relative;
+    top: -50px;
+}
+.btn {
+    width: 25%;
+    align-self: center;
+}
+
+.comment-form > .form-control {
+    width: 95%;
+    margin: 10px;
+
+}
+
+textarea {
+    min-height: 70px;
+}
+
+.comment-list article {
+    background: #cccccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.comment-list{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50%;
+    align-self: center;
+}
